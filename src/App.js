@@ -4,7 +4,7 @@ import LandingPage from './components/LandingPage';
 
 function App() {
   return (
-    <div className="bg-[#1e1e1e] h-[100%]">
+    <div className="h-[100%] ">
       <LandingPage />
     </div>
   );
