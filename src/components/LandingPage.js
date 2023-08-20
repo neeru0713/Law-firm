@@ -7,7 +7,7 @@ import HeroSection from './HeroSection';
 const LandingPage = () => {
   return (
    
-      <div className="h-[100%] w-[75%] mx-[10rem]">
+      <div className="h-[100vh] w-[75%] mx-[10rem]">
         <NavBar />
         <HeroSection />
         
