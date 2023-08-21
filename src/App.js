@@ -3,6 +3,7 @@ import './App.css';
 import Introduction from './components/Introduction';
 import LandingPage from './components/LandingPage';
 import Choose from './components/Choose';
+import GridPage from './components/GridPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <LandingPage />
       <Introduction />
       <Choose />
+      <GridPage/>
       
     </div>
   );
