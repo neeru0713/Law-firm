@@ -4,6 +4,9 @@ import Introduction from './components/Introduction';
 import LandingPage from './components/LandingPage';
 import Choose from './components/Choose';
 import GridPage from './components/GridPage';
+import Client from './components/Client';
+import Team from './components/Team';
+import Faq from './components/Faq'
 
 function App() {
   return (
@@ -12,7 +15,9 @@ function App() {
       <Introduction />
       <Choose />
       <GridPage/>
-      
+      <Client/>
+      <Team />
+      <Faq/>
     </div>
   );
 }

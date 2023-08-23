@@ -2,10 +2,10 @@ body{
     @apply bg-[black];
 }
 
-.grid img{
+.area img{
     @apply h-[100%] w-[100%] rounded-lg;   
 }
 
-.grid div{
+.area div{
     @apply h-[10rem] rounded-lg;
 }
