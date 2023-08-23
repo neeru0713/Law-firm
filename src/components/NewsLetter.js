@@ -6,10 +6,12 @@ const NewsLetter = () => {
       <p className="text-white font-semibold text-5xl p-12">
         Subscribe Our Newsletter
       </p>
-      <div className="flex p-6 w-[50rem] justify-around">
-        <Input className=" border rounded-l-xl" itemName="name:" />
-        <Input itemName="Enter your Email" />
-        <Input className="text-black text-xs" itemName="SEND"/>
+      <div className="flex p-6 w-[50rem] ml-[2rem]">
+        <Input className=" border rounded-l-lg mx-[4rem]" itemName="Name:" />
+        <Input className="mx-[-3rem]" itemName="Enter your Email" />
+        <button className="text-black text-xs ml-[4rem] h-[2.5rem] w-[5rem] bg-amber-300 rounded-r-lg">
+          Send
+        </button>
       </div>
     </div>
   );
