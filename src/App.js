@@ -7,6 +7,7 @@ import GridPage from './components/GridPage';
 import Client from './components/Client';
 import Team from './components/Team';
 import Faq from './components/Faq'
+import NewsLetter from './components/NewsLetter';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <GridPage/>
       <Client/>
       <Team />
-      <Faq/>
+      <Faq />
+      <NewsLetter/>
     </div>
   );
 }

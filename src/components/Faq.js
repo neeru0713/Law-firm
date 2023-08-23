@@ -2,7 +2,7 @@ import React from 'react'
 import Questions from './Questions'
 const Faq = () => {
   return (
-    <div className="flex flex-col mx-[20rem] mt-40">
+    <div className="flex flex-col mx-[23rem] mt-40">
       <h5 className="text-white font-bold text-4xl">FAQ</h5>
       <div className="flex mt-6 justify-between">
         <p className="text-gray-400">
