@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { BsGiftFill } from "react-icons/bs";
 import picture from "./profile.png";
 const Card = ({ value, showUser, userName, position }) => {
@@ -37,4 +37,4 @@ const Card = ({ value, showUser, userName, position }) => {
   );
 };
 
-export default Card
+export default Card;

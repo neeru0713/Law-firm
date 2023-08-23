@@ -1,5 +1,5 @@
-import React from 'react'
-import TeamMember from './TeamMember';
+import React from "react";
+import TeamMember from "./TeamMember";
 const TeamMates = () => {
   return (
     <div class="grid grid-rows-2 grid-cols-3 gap-3 ">
@@ -11,6 +11,6 @@ const TeamMates = () => {
       <TeamMember itemName="Nik Jeo" cases="350 cases" />
     </div>
   );
-}
+};
 
-export default TeamMates
+export default TeamMates;

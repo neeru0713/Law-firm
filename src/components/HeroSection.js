@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import picture from "./profile.png";
 const HeroSection = () => {
@@ -33,6 +33,6 @@ const HeroSection = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HeroSection
+export default HeroSection;

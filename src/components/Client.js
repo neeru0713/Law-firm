@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Card from './Card'
+import Card from "./Card";
 const Client = () => {
   return (
     <div className="flex flex-col p-12 mx-[20rem] pt-20">
@@ -24,12 +24,12 @@ const Client = () => {
         </div>
       </div>
       <div className="flex pt-10">
-        <Card showUser={true} userName="Jane Cooper"position="Ceo of hunt" />
+        <Card showUser={true} userName="Jane Cooper" position="Ceo of hunt" />
         <Card showUser={true} userName="Devon Lane" position="Ceo of hunt" />
         <Card showUser={true} userName="Robert Fox" position="Ceo of hunt" />
       </div>
     </div>
   );
-}
+};
 
-export default Client
+export default Client;

@@ -1,5 +1,5 @@
-import React from 'react'
-import Card from './Card.js'
+import React from "react";
+import Card from "./Card.js";
 const Choose = () => {
   return (
     <div>
@@ -13,6 +13,6 @@ const Choose = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Choose
+export default Choose;

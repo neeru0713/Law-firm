@@ -1,5 +1,5 @@
-import React from 'react'
-import Input from './Input'
+import React from "react";
+import Input from "./Input";
 const NewsLetter = () => {
   return (
     <div className="flex flex-col mx-[23rem] mt-20 bg-[#323232] h-[15rem] w-[50rem] text-center">
@@ -15,6 +15,6 @@ const NewsLetter = () => {
       </div>
     </div>
   );
-}
+};
 
-export default NewsLetter
+export default NewsLetter;

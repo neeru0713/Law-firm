@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import picture from "./profile.png";
-const TeamMember = ({itemName,cases }) => {
+const TeamMember = ({ itemName, cases }) => {
   return (
     <div className="flex mx-[2rem] mt-8 hover:bg-amber-300  cursor-pointer rounded-2xl p-4">
       <img className="h-[3rem] rounded-full bg-purple-500" src={picture} />
@@ -10,6 +10,6 @@ const TeamMember = ({itemName,cases }) => {
       </div>
     </div>
   );
-}
+};
 
-export default TeamMember
+export default TeamMember;

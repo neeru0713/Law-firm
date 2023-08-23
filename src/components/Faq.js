@@ -1,6 +1,23 @@
-import React from 'react'
-import Questions from './Questions'
+import { React, useState, useEffect } from "react";
+import Questions from "./Questions";
 const Faq = () => {
+  const [questions, setQuestions] = useState([]); // Changed variable name to 'questions'
+
+  useEffect(() => {
+    //   const apiUrl =
+    // "https://main--vocal-crostata-93f231.netlify.app/questions.json";
+    const apiUrl = "http://localhost:3000/questions.json";
+    fetch(apiUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data.questions);
+        setQuestions(data.questions); // Updated to 'questions'
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
+
   return (
     <div className="flex flex-col mx-[23rem] mt-40">
       <h5 className="text-white font-bold text-4xl">FAQ</h5>
@@ -18,13 +35,13 @@ const Faq = () => {
             sit aliqua dolor do amet sint. Velit officia
             <br /> consequantduis enim velit mollit Exer.{" "}
           </p>
-          <Questions itemName="How much is my case worth?" />
-          <Questions itemName="How much is my case worth?" />
-          <Questions itemName="How much is my case worth?" />
+          {questions.map((item) => (
+            <Questions itemName={item} />
+          ))}
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Faq
+export default Faq;

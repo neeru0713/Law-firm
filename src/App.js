@@ -1,13 +1,14 @@
 // import logo from './logo.svg';
-import './App.css';
-import Introduction from './components/Introduction';
-import LandingPage from './components/LandingPage';
-import Choose from './components/Choose';
-import GridPage from './components/GridPage';
-import Client from './components/Client';
-import Team from './components/Team';
-import Faq from './components/Faq'
-import NewsLetter from './components/NewsLetter';
+import "./App.css";
+import Introduction from "./components/Introduction";
+import LandingPage from "./components/LandingPage";
+import Choose from "./components/Choose";
+import GridPage from "./components/GridPage";
+import Client from "./components/Client";
+import Team from "./components/Team";
+import Faq from "./components/Faq";
+import NewsLetter from "./components/NewsLetter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <LandingPage />
       <Introduction />
       <Choose />
-      <GridPage/>
-      <Client/>
+      <GridPage />
+      <Client />
       <Team />
       <Faq />
-      <NewsLetter/>
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }
