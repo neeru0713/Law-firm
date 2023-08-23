@@ -6,7 +6,8 @@ const Faq = () => {
   useEffect(() => {
     //   const apiUrl =
     // "https://main--vocal-crostata-93f231.netlify.app/questions.json";
-    const apiUrl = "http://localhost:3000/questions.json";
+    const apiUrl =
+      "https://main--thriving-scone-9bf94e.netlify.app/questions.json";
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
